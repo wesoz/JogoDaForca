@@ -12,34 +12,34 @@
  
 using namespace std;
 
-int main() {    
+static string palavra_secreta;
+static map<char, bool> chutou;
+static vector<char> chutes_errados;
 
-    string palavra_secreta;
-    map<char, bool> chutou;
-    vector<char> chutes_errados;
+int main() {
     
-    imprime_cabecalho();
+    Forca::imprime_cabecalho();
 
-    palavra_secreta = sorteia_palavra();
+    palavra_secreta = Forca::sorteia_palavra();
 
-    while(!acertou(palavra_secreta, chutou) && chutes_errados.size() < 5) {
-        imprime_erros(chutes_errados);
+    while(!Forca::acertou(palavra_secreta, chutou) && chutes_errados.size() < 5) {
+        Forca::imprime_erros(chutes_errados);
 
-        imprime_acertos(palavra_secreta, chutou);
+        Forca::imprime_acertos(palavra_secreta, chutou);
 
-        valida_chute(&chutou, &chutes_errados, palavra_secreta);
+        Forca::valida_chute(&chutou, &chutes_errados, palavra_secreta);
     }
 
     cout << "Fim de Jogo!" << endl;
     cout << "A palavra secreta era " << palavra_secreta << endl;
 
-    if (acertou(palavra_secreta, chutou)) {
+    if (Forca::acertou(palavra_secreta, chutou)) {
         cout << "Parabéns! Você acertou a palavra secreta!" << endl;
         cout << "Deseja adicionar umna palavra nova no banco de palavras?(S/N) ";
         char resposta;
         cin >> resposta;
         if (resposta == 'S') {
-            adiciona_palavra();
+            Forca::adiciona_palavra();
         }
         cout << endl;
     } else {
