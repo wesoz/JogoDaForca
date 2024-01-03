@@ -1,9 +1,9 @@
 #include <string>
 
-extern std::string PALAVRA_SECRETA;
+extern std::string palavra_secreta;
 
-bool letra_existe(char chute) {
-    for (char letra : PALAVRA_SECRETA) {
+bool letra_existe(char chute, std::string palavra_secreta) {
+    for (char letra : palavra_secreta) {
         if (chute == letra) {
             return true;
         }

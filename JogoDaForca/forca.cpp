@@ -3,7 +3,6 @@
 #include <map>
 #include <vector>
 #include "acertou.hpp"
-#include "enforcou.hpp"
 #include "imprime_cabecalho.hpp"
 #include "imprime_erros.hpp"
 #include "imprime_acertos.hpp"
@@ -13,28 +12,28 @@
  
 using namespace std;
 
-string PALAVRA_SECRETA;
-map<char, bool> chutou;
-vector<char> chutes_errados;
-
 int main() {    
 
+    string palavra_secreta;
+    map<char, bool> chutou;
+    vector<char> chutes_errados;
+    
     imprime_cabecalho();
 
-    sorteia_palavra();
+    palavra_secreta = sorteia_palavra();
 
-    while(!acertou() && !enforcou()) {
-        imprime_erros();
+    while(!acertou(palavra_secreta, chutou) && chutes_errados.size() < 5) {
+        imprime_erros(chutes_errados);
 
-        imprime_acertos();
+        imprime_acertos(palavra_secreta, chutou);
 
-        valida_chute();
+        valida_chute(&chutou, &chutes_errados, palavra_secreta);
     }
 
     cout << "Fim de Jogo!" << endl;
-    cout << "A palavra secreta era " << PALAVRA_SECRETA << endl;
+    cout << "A palavra secreta era " << palavra_secreta << endl;
 
-    if (acertou()) {
+    if (acertou(palavra_secreta, chutou)) {
         cout << "Parabéns! Você acertou a palavra secreta!" << endl;
         cout << "Deseja adicionar umna palavra nova no banco de palavras?(S/N)" << endl;
         char resposta;

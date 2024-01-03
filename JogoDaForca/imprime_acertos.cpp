@@ -1,12 +1,8 @@
 #include <iostream>
-#include <string>
-#include <map>
+#include "imprime_acertos.hpp"
 
-extern std::string PALAVRA_SECRETA;
-extern std::map<char, bool> chutou;
-
-void imprime_acertos() {
-    for (char letra : PALAVRA_SECRETA) {
+void imprime_acertos(std::string palavra_secreta, std::map<char, bool> chutou) {
+    for (char letra : palavra_secreta) {
         if (chutou[letra]) {
             std::cout << letra << " ";
         } else {

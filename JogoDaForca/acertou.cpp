@@ -1,11 +1,8 @@
 #include <string>
 #include <map>
 
-extern std::string PALAVRA_SECRETA;
-extern std::map<char, bool> chutou;
-
-bool acertou() {
-    for (char letra : PALAVRA_SECRETA) {
+bool acertou(std::string palavra_secreta, std::map<char, bool> chutou) {
+    for (char letra : palavra_secreta) {
         if (!chutou[letra]) {
             return false;
         }
