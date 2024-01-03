@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDF167BE2B45B01A002F2F7D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167BD2B45B01A002F2F7D /* main.cpp */; };
+		FDF167DB2B45B043002F2F7D /* le_arquivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167C42B45B043002F2F7D /* le_arquivo.cpp */; };
+		FDF167DC2B45B043002F2F7D /* adiciona_palavra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167C52B45B043002F2F7D /* adiciona_palavra.cpp */; };
+		FDF167DD2B45B043002F2F7D /* sorteia_palavra.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167C62B45B043002F2F7D /* sorteia_palavra.cpp */; };
+		FDF167DE2B45B043002F2F7D /* valida_chute.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167C72B45B043002F2F7D /* valida_chute.cpp */; };
+		FDF167DF2B45B043002F2F7D /* enforcou.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167C92B45B043002F2F7D /* enforcou.cpp */; };
+		FDF167E02B45B043002F2F7D /* imprime_erros.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167CB2B45B043002F2F7D /* imprime_erros.cpp */; };
+		FDF167E12B45B043002F2F7D /* acertou.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167CE2B45B043002F2F7D /* acertou.cpp */; };
+		FDF167E22B45B043002F2F7D /* imprime_acertos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167CF2B45B043002F2F7D /* imprime_acertos.cpp */; };
+		FDF167E32B45B043002F2F7D /* letra_existe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D52B45B043002F2F7D /* letra_existe.cpp */; };
+		FDF167E42B45B043002F2F7D /* salva_arquivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D72B45B043002F2F7D /* salva_arquivo.cpp */; };
+		FDF167E52B45B043002F2F7D /* forca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D82B45B043002F2F7D /* forca.cpp */; };
+		FDF167E62B45B043002F2F7D /* imprime_cabecalho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */; };
+		FDF167E82B45B228002F2F7D /* palavras.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FDF167E72B45B0AD002F2F7D /* palavras.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDF167B82B45B01A002F2F7D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				FDF167E82B45B228002F2F7D /* palavras.txt in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDF167BA2B45B01A002F2F7D /* JogoDaForca */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JogoDaForca; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDF167BD2B45B01A002F2F7D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		FDF167C42B45B043002F2F7D /* le_arquivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = le_arquivo.cpp; sourceTree = "<group>"; };
+		FDF167C52B45B043002F2F7D /* adiciona_palavra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = adiciona_palavra.cpp; sourceTree = "<group>"; };
+		FDF167C62B45B043002F2F7D /* sorteia_palavra.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sorteia_palavra.cpp; sourceTree = "<group>"; };
+		FDF167C72B45B043002F2F7D /* valida_chute.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = valida_chute.cpp; sourceTree = "<group>"; };
+		FDF167C82B45B043002F2F7D /* imprime_erros.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imprime_erros.hpp; sourceTree = "<group>"; };
+		FDF167C92B45B043002F2F7D /* enforcou.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = enforcou.cpp; sourceTree = "<group>"; };
+		FDF167CA2B45B043002F2F7D /* acertou.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = acertou.hpp; sourceTree = "<group>"; };
+		FDF167CB2B45B043002F2F7D /* imprime_erros.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imprime_erros.cpp; sourceTree = "<group>"; };
+		FDF167CC2B45B043002F2F7D /* salva_arquivo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = salva_arquivo.hpp; sourceTree = "<group>"; };
+		FDF167CD2B45B043002F2F7D /* valida_chute.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = valida_chute.hpp; sourceTree = "<group>"; };
+		FDF167CE2B45B043002F2F7D /* acertou.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = acertou.cpp; sourceTree = "<group>"; };
+		FDF167CF2B45B043002F2F7D /* imprime_acertos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imprime_acertos.cpp; sourceTree = "<group>"; };
+		FDF167D02B45B043002F2F7D /* sorteia_palavra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sorteia_palavra.hpp; sourceTree = "<group>"; };
+		FDF167D12B45B043002F2F7D /* letra_existe.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = letra_existe.hpp; sourceTree = "<group>"; };
+		FDF167D22B45B043002F2F7D /* adiciona_palavra.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = adiciona_palavra.hpp; sourceTree = "<group>"; };
+		FDF167D32B45B043002F2F7D /* imprime_acertos.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imprime_acertos.hpp; sourceTree = "<group>"; };
+		FDF167D42B45B043002F2F7D /* enforcou.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = enforcou.hpp; sourceTree = "<group>"; };
+		FDF167D52B45B043002F2F7D /* letra_existe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = letra_existe.cpp; sourceTree = "<group>"; };
+		FDF167D62B45B043002F2F7D /* le_arquivo.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = le_arquivo.hpp; sourceTree = "<group>"; };
+		FDF167D72B45B043002F2F7D /* salva_arquivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = salva_arquivo.cpp; sourceTree = "<group>"; };
+		FDF167D82B45B043002F2F7D /* forca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forca.cpp; sourceTree = "<group>"; };
+		FDF167D92B45B043002F2F7D /* imprime_cabecalho.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imprime_cabecalho.hpp; sourceTree = "<group>"; };
+		FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imprime_cabecalho.cpp; sourceTree = "<group>"; };
+		FDF167E72B45B0AD002F2F7D /* palavras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = palavras.txt; path = JogoDaForca/palavras.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDF167B72B45B01A002F2F7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDF167B12B45B01A002F2F7D = {
+			isa = PBXGroup;
+			children = (
+				FDF167BC2B45B01A002F2F7D /* JogoDaForca */,
+				FDF167BB2B45B01A002F2F7D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDF167BB2B45B01A002F2F7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDF167BA2B45B01A002F2F7D /* JogoDaForca */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDF167BC2B45B01A002F2F7D /* JogoDaForca */ = {
+			isa = PBXGroup;
+			children = (
+				FDF167CE2B45B043002F2F7D /* acertou.cpp */,
+				FDF167CA2B45B043002F2F7D /* acertou.hpp */,
+				FDF167C52B45B043002F2F7D /* adiciona_palavra.cpp */,
+				FDF167D22B45B043002F2F7D /* adiciona_palavra.hpp */,
+				FDF167C92B45B043002F2F7D /* enforcou.cpp */,
+				FDF167D42B45B043002F2F7D /* enforcou.hpp */,
+				FDF167D82B45B043002F2F7D /* forca.cpp */,
+				FDF167CF2B45B043002F2F7D /* imprime_acertos.cpp */,
+				FDF167D32B45B043002F2F7D /* imprime_acertos.hpp */,
+				FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */,
+				FDF167D92B45B043002F2F7D /* imprime_cabecalho.hpp */,
+				FDF167CB2B45B043002F2F7D /* imprime_erros.cpp */,
+				FDF167C82B45B043002F2F7D /* imprime_erros.hpp */,
+				FDF167C42B45B043002F2F7D /* le_arquivo.cpp */,
+				FDF167D62B45B043002F2F7D /* le_arquivo.hpp */,
+				FDF167D52B45B043002F2F7D /* letra_existe.cpp */,
+				FDF167D12B45B043002F2F7D /* letra_existe.hpp */,
+				FDF167D72B45B043002F2F7D /* salva_arquivo.cpp */,
+				FDF167CC2B45B043002F2F7D /* salva_arquivo.hpp */,
+				FDF167C62B45B043002F2F7D /* sorteia_palavra.cpp */,
+				FDF167D02B45B043002F2F7D /* sorteia_palavra.hpp */,
+				FDF167C72B45B043002F2F7D /* valida_chute.cpp */,
+				FDF167CD2B45B043002F2F7D /* valida_chute.hpp */,
+				FDF167BD2B45B01A002F2F7D /* main.cpp */,
+				FDF167E72B45B0AD002F2F7D /* palavras.txt */,
+			);
+			path = JogoDaForca;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDF167B92B45B01A002F2F7D /* JogoDaForca */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDF167C12B45B01A002F2F7D /* Build configuration list for PBXNativeTarget "JogoDaForca" */;
+			buildPhases = (
+				FDF167B62B45B01A002F2F7D /* Sources */,
+				FDF167B72B45B01A002F2F7D /* Frameworks */,
+				FDF167B82B45B01A002F2F7D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoDaForca;
+			productName = JogoDaForca;
+			productReference = FDF167BA2B45B01A002F2F7D /* JogoDaForca */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDF167B22B45B01A002F2F7D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					FDF167B92B45B01A002F2F7D = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = FDF167B52B45B01A002F2F7D /* Build configuration list for PBXProject "JogoDaForca" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDF167B12B45B01A002F2F7D;
+			productRefGroup = FDF167BB2B45B01A002F2F7D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDF167B92B45B01A002F2F7D /* JogoDaForca */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDF167B62B45B01A002F2F7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDF167DE2B45B043002F2F7D /* valida_chute.cpp in Sources */,
+				FDF167DB2B45B043002F2F7D /* le_arquivo.cpp in Sources */,
+				FDF167E62B45B043002F2F7D /* imprime_cabecalho.cpp in Sources */,
+				FDF167DD2B45B043002F2F7D /* sorteia_palavra.cpp in Sources */,
+				FDF167DC2B45B043002F2F7D /* adiciona_palavra.cpp in Sources */,
+				FDF167E32B45B043002F2F7D /* letra_existe.cpp in Sources */,
+				FDF167DF2B45B043002F2F7D /* enforcou.cpp in Sources */,
+				FDF167BE2B45B01A002F2F7D /* main.cpp in Sources */,
+				FDF167E22B45B043002F2F7D /* imprime_acertos.cpp in Sources */,
+				FDF167E42B45B043002F2F7D /* salva_arquivo.cpp in Sources */,
+				FDF167E52B45B043002F2F7D /* forca.cpp in Sources */,
+				FDF167E02B45B043002F2F7D /* imprime_erros.cpp in Sources */,
+				FDF167E12B45B043002F2F7D /* acertou.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FDF167BF2B45B01A002F2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		FDF167C02B45B01A002F2F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FDF167C22B45B01A002F2F7D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FDF167C32B45B01A002F2F7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDF167B52B45B01A002F2F7D /* Build configuration list for PBXProject "JogoDaForca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF167BF2B45B01A002F2F7D /* Debug */,
+				FDF167C02B45B01A002F2F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDF167C12B45B01A002F2F7D /* Build configuration list for PBXNativeTarget "JogoDaForca" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDF167C22B45B01A002F2F7D /* Debug */,
+				FDF167C32B45B01A002F2F7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDF167B22B45B01A002F2F7D /* Project object */;
+}
