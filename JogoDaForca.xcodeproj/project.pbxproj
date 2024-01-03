@@ -19,7 +19,6 @@
 		FDF167E32B45B043002F2F7D /* letra_existe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D52B45B043002F2F7D /* letra_existe.cpp */; };
 		FDF167E42B45B043002F2F7D /* salva_arquivo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D72B45B043002F2F7D /* salva_arquivo.cpp */; };
 		FDF167E52B45B043002F2F7D /* forca.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167D82B45B043002F2F7D /* forca.cpp */; };
-		FDF167E62B45B043002F2F7D /* imprime_cabecalho.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */; };
 		FDF167E82B45B228002F2F7D /* palavras.txt in CopyFiles */ = {isa = PBXBuildFile; fileRef = FDF167E72B45B0AD002F2F7D /* palavras.txt */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		FDF167D72B45B043002F2F7D /* salva_arquivo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = salva_arquivo.cpp; sourceTree = "<group>"; };
 		FDF167D82B45B043002F2F7D /* forca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = forca.cpp; sourceTree = "<group>"; };
 		FDF167D92B45B043002F2F7D /* imprime_cabecalho.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = imprime_cabecalho.hpp; sourceTree = "<group>"; };
-		FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = imprime_cabecalho.cpp; sourceTree = "<group>"; };
 		FDF167E72B45B0AD002F2F7D /* palavras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = palavras.txt; path = JogoDaForca/palavras.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -104,7 +102,6 @@
 				FDF167D82B45B043002F2F7D /* forca.cpp */,
 				FDF167CF2B45B043002F2F7D /* imprime_acertos.cpp */,
 				FDF167D32B45B043002F2F7D /* imprime_acertos.hpp */,
-				FDF167DA2B45B043002F2F7D /* imprime_cabecalho.cpp */,
 				FDF167D92B45B043002F2F7D /* imprime_cabecalho.hpp */,
 				FDF167CB2B45B043002F2F7D /* imprime_erros.cpp */,
 				FDF167C82B45B043002F2F7D /* imprime_erros.hpp */,
@@ -183,7 +180,6 @@
 			files = (
 				FDF167DE2B45B043002F2F7D /* valida_chute.cpp in Sources */,
 				FDF167DB2B45B043002F2F7D /* le_arquivo.cpp in Sources */,
-				FDF167E62B45B043002F2F7D /* imprime_cabecalho.cpp in Sources */,
 				FDF167DD2B45B043002F2F7D /* sorteia_palavra.cpp in Sources */,
 				FDF167DC2B45B043002F2F7D /* adiciona_palavra.cpp in Sources */,
 				FDF167E32B45B043002F2F7D /* letra_existe.cpp in Sources */,
