@@ -1,7 +1,7 @@
 #include <iostream>
 #include <string>
 #include <map>
-#include <vector>
+#include <array>
 #include "acertou.hpp"
 #include "imprime_cabecalho.hpp"
 #include "imprime_erros.hpp"
@@ -14,7 +14,8 @@ using namespace std;
 
 static string palavra_secreta;
 static map<char, bool> chutou;
-static vector<char> chutes_errados;
+static array<char, 5> chutes_errados;
+static int quantidade_chutes = 0;
 
 int main() {
     
@@ -22,12 +23,12 @@ int main() {
 
     palavra_secreta = Forca::sorteia_palavra();
 
-    while(!Forca::acertou(palavra_secreta, chutou) && chutes_errados.size() < 5) {
+    while(!Forca::acertou(palavra_secreta, chutou) && quantidade_chutes < 5) {
         Forca::imprime_erros(chutes_errados);
 
         Forca::imprime_acertos(palavra_secreta, chutou);
 
-        Forca::valida_chute(&chutou, &chutes_errados, palavra_secreta);
+        Forca::valida_chute(&chutou, &chutes_errados, quantidade_chutes, palavra_secreta);
     }
 
     cout << "Fim de Jogo!" << endl;
