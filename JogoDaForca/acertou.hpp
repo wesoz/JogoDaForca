@@ -2,4 +2,4 @@
 #include <string>
 #include <map>
 
-bool acertou(std::string& palavra_secreta, std::map<char, bool>& chutou);
+bool acertou(const std::string& palavra_secreta, const std::map<char, bool>& chutou);

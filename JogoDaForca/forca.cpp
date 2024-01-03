@@ -35,12 +35,13 @@ int main() {
 
     if (acertou(palavra_secreta, chutou)) {
         cout << "Parabéns! Você acertou a palavra secreta!" << endl;
-        cout << "Deseja adicionar umna palavra nova no banco de palavras?(S/N)" << endl;
+        cout << "Deseja adicionar umna palavra nova no banco de palavras?(S/N) ";
         char resposta;
         cin >> resposta;
         if (resposta == 'S') {
             adiciona_palavra();
         }
+        cout << endl;
     } else {
         cout << "Você perdeu! Tente novamente!" << endl;
     }

@@ -2,4 +2,4 @@
 #include <vector>
 #include <string>
 
-void salva_arquivo(std::vector<std::string>& nova_lista);
+void salva_arquivo(const std::vector<std::string>& nova_lista);

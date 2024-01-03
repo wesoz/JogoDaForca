@@ -1,1 +1,1 @@
-bool letra_existe(char chute, std::string& palavra_secreta);
+bool letra_existe(char chute, const std::string& palavra_secreta);
